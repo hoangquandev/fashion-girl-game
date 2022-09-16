@@ -1,0 +1,43 @@
+.menu-box {
+    background-image: url('../images/box.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 52px;
+    padding-right: 59px;
+    padding-left: 89px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.menu {
+    background-image: url('../images/menu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 25%;
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+}
+
+.menu img {
+    width: 70%;
+    height: 60px;
+}
+
+@media (max-width:876px) {
+    .menu {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width:740px) {
+    .menu {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}

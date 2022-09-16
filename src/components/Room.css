@@ -1,0 +1,43 @@
+.room {
+    background-image: url(../images/dress-room.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.girl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.girl .img {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 30%;
+    height: auto;
+}
+
+.img img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 43%;
+    transform: translate(-47%, -70%);
+}
+
+.box .menu {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
